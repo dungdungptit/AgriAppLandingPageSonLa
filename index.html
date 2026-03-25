@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Trợ lý AI Nông nghiệp tỉnh Sơn La - Nền tảng nông nghiệp thông minh tỉnh Sơn La hỗ trợ người dân quản lý cây trồng, dự báo thời tiết, chẩn đoán sâu bệnh và cập nhật giá thị trường.">
+    <meta name="keywords"
+        content="nông nghiệp, ứng dụng nông nghiệp, dự báo thời tiết, chẩn đoán sâu bệnh, giá nông sản, Trợ lý AI Nông nghiệp tỉnh Sơn La, smart farming">
+    <meta name="author" content="Trợ lý AI Nông nghiệp tỉnh Sơn La Team">
+    <title>Trợ lý AI Nông nghiệp tỉnh Sơn La - Nền tảng nông nghiệp thông minh tỉnh Sơn La</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/vi/thumb/b/bf/Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg/960px-Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg.png">
+    <link rel="apple-touch-icon" href="https://upload.wikimedia.org/wikipedia/vi/thumb/b/bf/Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg/960px-Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg.png">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/b/bf/Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg/960px-Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg.png" alt="Logo" class="logo-img">
+                <span class="logo-text">Trợ lý AI Nông nghiệp tỉnh Sơn La</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#features">Tính năng</a></li>
+                <li><a href="#download" class="nav-cta">Tải xuống</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation">
+            <div class="leaf leaf-1">🍃</div>
+            <div class="leaf leaf-2">🌿</div>
+            <div class="leaf leaf-3">🍀</div>
+            <div class="leaf leaf-4">🌾</div>
+            <div class="leaf leaf-5">🌻</div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">🚀 Phiên bản mới nhất</span>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Nông nghiệp Thông minh</span><br>
+                    Trong tầm tay bạn
+                </h1>
+                <p class="hero-description">
+                    Trợ lý AI Nông nghiệp tỉnh Sơn La được phát triển với sự phối hợp của Sở Khoa học Công nghệ tỉnh
+                    Sơn La, Sở
+                    Nông nghiệp và Môi trường tỉnh Sơn La cùng Học viện Công nghệ Bưu chính Viễn thông.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/dungdungptit/AgriAppLandingPage/releases/download/v1/smart-agri-app.apk"
+                        class="btn btn-primary" download>
+                        <span class="btn-icon">
+                            <img src="assets/chplay.png" alt="Android" style="width: 24px; height: 24px;">
+                        </span>
+                        Tải APK ngay
+                        <span class="btn-badge">Android</span>
+                    </a>
+                    <a href="#" class="btn btn-disabled" onclick="return false;">
+                        <span class="btn-icon">
+                            <span class="download-icon">
+                                <img src="assets/ios-icon.png" alt="iOS" style="width: 24px; height: 24px;">
+                            </span>
+                        </span>
+                        iOS App
+                        <span class="btn-badge">Đang phát triển</span>
+                    </a>
+                    <a href="https://app.dienbien.gov.vn" class="btn btn-primary" target="_blank">
+                        <span class="btn-icon">🌐</span>
+                        Thử nghiệm Web
+                        <span class="btn-badge">Online</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Tính năng chính</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">AI</span>
+                        <span class="stat-label">Hỗ trợ thông minh</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Miễn phí</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="app-preview">
+                                <div class="app-header">
+                                    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/b/bf/Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg/960px-Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg.png" alt="Logo"
+                                        style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                                    <span>Trợ lý AI Nông nghiệp tỉnh Sơn La</span>
+                                </div>
+                                <div class="weather-card-preview">
+                                    <div class="weather-icon" style="font-size: 2rem;">☀️</div>
+                                    <div class="weather-info">
+                                        <span class="temp">25°C</span>
+                                        <span class="location">Sơn La</span>
+                                    </div>
+                                </div>
+                                <div class="feature-icons-preview">
+                                    <div class="preview-icon">🌤️</div>
+                                    <div class="preview-icon">🐛</div>
+                                    <div class="preview-icon">📊</div>
+                                    <div class="preview-icon">💬</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-badge">💚 Về chúng tôi</span>
+                    <h2 class="section-title">Nền tảng Nông nghiệp Thông minh</h2>
+                    <p class="about-description">
+                        Trợ lý AI Nông nghiệp tỉnh Sơn La được phát triển với sự phối hợp của Sở Khoa học Công nghệ
+                        tỉnh Sơn La,
+                        Sở Nông nghiệp và Môi trường tỉnh Sơn La cùng Học viện Công nghệ Bưu chính Viễn thông.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🌱</div>
+                            <div class="highlight-text">
+                                <h4>Hỗ trợ người dân</h4>
+                                <p>Giao diện đơn giản, dễ sử dụng</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🤖</div>
+                            <div class="highlight-text">
+                                <h4>Công nghệ AI</h4>
+                                <p>Chẩn đoán & tư vấn thông minh</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">📱</div>
+                            <div class="highlight-text">
+                                <h4>Miễn phí 100%</h4>
+                                <p>Không quảng cáo, không phí ẩn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <div class="floating-card card-1">
+                            <span class="card-icon">☀️</span>
+                            <span class="card-text">28°C - Nắng đẹp</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <span class="card-icon">🌱</span>
+                            <span class="card-text">Cây khỏe mạnh!</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <span class="card-icon">📈</span>
+                            <span class="card-text">Giá tăng +5%</span>
+                        </div>
+                        <div class="about-image">
+                            <img src="assets/icon_tro_li_AI.png" alt="AI Assistant" class="ai-assistant-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">✨ Tính năng nổi bật</span>
+                <h2 class="section-title">Mọi thứ bạn cần để canh tác thông minh</h2>
+                <p class="section-description">
+                    Được xây dựng với ❤️ dành riêng cho người dân Việt Nam
+                </p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1: Weather -->
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon weather-icon-bg">
+                        <span>🌤️</span>
+                    </div>
+                    <h3 class="feature-title">Dự báo Thời tiết</h3>
+                    <p class="feature-description">
+                        Dự báo thời tiết 7 ngày và theo giờ với độ chính xác cao.
+                        Hiển thị nhiệt độ, độ ẩm, tốc độ gió và xác suất mưa.
+                    </p>
+                    <ul class="feature-list">
+                        <li>📍 Tự động lấy vị trí GPS</li>
+                        <li>📅 Dự báo 7 ngày tới</li>
+                        <li>⏰ Dự báo theo giờ (24h)</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Pest Diagnosis -->
+                <div class="feature-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-badge">🔥 Hot</div>
+                    <div class="feature-icon pest-icon-bg">
+                        <span>🐛</span>
+                    </div>
+                    <h3 class="feature-title">Chẩn đoán Sâu bệnh AI</h3>
+                    <p class="feature-description">
+                        Chụp ảnh lá cây và để AI phân tích bệnh chỉ trong vài giây.
+                        Hỗ trợ chẩn đoán cho cây Xoài và Mận.
+                    </p>
+                    <ul class="feature-list">
+                        <li>📸 Chụp ảnh hoặc chọn từ thư viện</li>
+                        <li>🤖 Phân tích bằng AI thông minh</li>
+                        <li>📋 Lưu lịch sử chẩn đoán</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Market -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon market-icon-bg">
+                        <span>📊</span>
+                    </div>
+                    <h3 class="feature-title">Giá Thị trường</h3>
+                    <p class="feature-description">
+                        Cập nhật giá nông sản hàng ngày: xoài, mận, tiêu, điều...
+                        Xem biểu đồ xu hướng giá để quyết định thời điểm bán.
+                    </p>
+                    <ul class="feature-list">
+                        <li>💰 Giá cập nhật real-time</li>
+                        <li>📈 Biểu đồ xu hướng giá</li>
+                        <li>📰 Tin mua bán nông sản</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 4: AI Chat -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon chat-icon-bg">
+                        <span>💬</span>
+                    </div>
+                    <h3 class="feature-title">Hỏi & Đáp AI</h3>
+                    <p class="feature-description">
+                        Chatbot AI thông minh sẵn sàng giải đáp mọi thắc mắc về
+                        kỹ thuật canh tác, chăm sóc cây trồng (Ví dụ: Yên Châu có thể trồng Xoài không?) 24/7.
+                    </p>
+                    <ul class="feature-list">
+                        <li>🤖 AI thông minh tích hợp</li>
+                        <li>💾 Lưu lịch sử hội thoại</li>
+                        <li>🔄 Hỗ trợ đa cuộc trò chuyện</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 5: GAP Knowledge -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon gap-icon-bg">
+                        <span>📚</span>
+                    </div>
+                    <h3 class="feature-title">Kiến thức GAP</h3>
+                    <p class="feature-description">
+                        Thư viện bài viết về quy trình thực hành nông nghiệp tốt (GAP)
+                        và hướng dẫn chăm sóc cây trồng chi tiết.
+                    </p>
+                    <ul class="feature-list">
+                        <li>📖 Bài viết chuyên sâu</li>
+                        <li>🌱 Hướng dẫn canh tác</li>
+                        <li>✅ Tiêu chuẩn GAP</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 6: Homepage -->
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon home-icon-bg">
+                        <span>🏠</span>
+                    </div>
+                    <h3 class="feature-title">Trang chủ Thông minh</h3>
+                    <p class="feature-description">
+                        Giao diện tổng hợp hiển thị thời tiết, gợi ý canh tác từ AI,
+                        cập nhật giá nông sản và tin tức mới nhất.
+                    </p>
+                    <ul class="feature-list">
+                        <li>🎯 Gợi ý canh tác từ AI</li>
+                        <li>📍 Thời tiết theo vị trí</li>
+                        <li>📰 Tin tức nông nghiệp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="download-bg-pattern"></div>
+        <div class="container">
+            <div class="download-content">
+                <span class="section-badge light">📲 Tải xuống ngay</span>
+                <h2 class="section-title">Bắt đầu hành trình<br>Nông nghiệp Thông minh</h2>
+                <p class="download-description">
+                    Tải ứng dụng Trợ lý AI Nông nghiệp tỉnh Sơn La miễn phí và trải nghiệm công nghệ
+                    AI hỗ trợ canh tác ngay hôm nay!
+                </p>
+                <div class="download-buttons">
+                    <a href="https://github.com/dungdungptit/AgriAppLandingPage/releases/download/v1/smart-agri-app.apk"
+                        class="btn btn-download" download>
+                        <div class="btn-content">
+                            <span class="download-icon">
+                                <img src="assets/chplay.png" alt="Android" style="width: 24px; height: 24px;">
+                            </span>
+                            <div class="btn-text">
+                                <span class="btn-small">Tải xuống cho</span>
+                                <span class="btn-large">Android APK</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="btn btn-download btn-ios-disabled" onclick="return false;">
+                        <div class="btn-content">
+                            <span class="download-icon">
+                                <img src="assets/ios-icon.png" alt="iOS" style="width: 24px; height: 24px;">
+                            </span>
+                            <div class="btn-text">
+                                <span class="btn-small">Đang phát triển</span>
+                                <span class="btn-large">iOS App</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://app.dienbien.gov.vn" class="btn btn-download" target="_blank">
+                        <div class="btn-content">
+                            <span class="download-icon" style="font-size: 1.5rem;">🌐</span>
+                            <div class="btn-text">
+                                <span class="btn-small">Trải nghiệm ngay</span>
+                                <span class="btn-large">Web App</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <p class="download-note">
+                    <span class="note-icon">💡</span>
+                    Android 6.0+ | iOS đang phát triển
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/b/bf/Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg/960px-Bi%E1%BB%83u_tr%C6%B0ng_t%E1%BB%89nh_S%C6%A1n_La.svg.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Trợ lý AI Nông nghiệp tỉnh Sơn La</span>
+                    </a>
+                    <p class="footer-tagline">
+                        Nền tảng nông nghiệp thông minh tỉnh Sơn La
+                    </p>
+                    <div class="footer-buttons">
+                        <a href="https://github.com/dungdungptit/AgriAppLandingPage/releases/download/v1/smart-agri-app.apk"
+                            class="btn btn-primary btn-sm" download>
+                            <img src="assets/chplay.png" alt="Android" style="width: 24px; height: 24px;">
+                            </span>
+                            Tải APK
+                        </a>
+                        <a href="https://app.dienbien.gov.vn" class="btn btn-primary btn-sm" target="_blank">
+                            <span class="btn-icon">🌐</span>
+                            Web App
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Liên kết</h4>
+                        <ul>
+                            <li><a href="#home">Trang chủ</a></li>
+                            <li><a href="#features">Tính năng</a></li>
+                            <li><a href="#about">Giới thiệu</a></li>
+                            <li><a href="#download">Tải xuống</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Tính năng</h4>
+                        <ul>
+                            <li><a href="#features">Dự báo thời tiết</a></li>
+                            <li><a href="#features">Chẩn đoán sâu bệnh</a></li>
+                            <li><a href="#features">Giá thị trường</a></li>
+                            <li><a href="#features">Hỏi & Đáp AI</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Liên hệ</h4>
+                        <ul>
+                            <li><a href="mailto:support@agriapp.vn">Email hỗ trợ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trợ lý AI Nông nghiệp tỉnh Sơn La. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
